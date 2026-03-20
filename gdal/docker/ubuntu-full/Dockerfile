@@ -1,11 +1,5 @@
 # syntax=docker/dockerfile:1
-
-##
 # osgeo/gdal:ubuntu-full
-
-# This file is available at the option of the licensee under:
-# Public domain
-# or licensed under MIT (LICENSE.TXT) Copyright 2019 Even Rouault <even.rouault@spatialys.com>
 
 ARG BASE_IMAGE=ubuntu:24.04
 ARG TARGET_BASE_IMAGE=ubuntu:24.04
