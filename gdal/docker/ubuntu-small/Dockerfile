@@ -1,11 +1,5 @@
 # syntax=docker/dockerfile:1
-
-##
 # osgeo/gdal:ubuntu-small
-
-# This file is available at the option of the licensee under:
-# Public domain
-# or licensed under MIT (LICENSE.TXT) Copyright 2019 Even Rouault <even.rouault@spatialys.com>
 
 ARG PROJ_INSTALL_PREFIX=/usr/local/gdal-internal
 ARG BASE_IMAGE=ubuntu:24.04
