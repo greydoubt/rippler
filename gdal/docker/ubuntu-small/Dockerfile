@@ -7,8 +7,7 @@ ARG TARGET_BASE_IMAGE=ubuntu:24.04
 
 FROM $BASE_IMAGE AS builder
 
-# Derived from osgeo/proj by Howard Butler <howard@hobu.co>
-LABEL maintainer="Even Rouault <even.rouault@spatialys.com>"
+LABEL maintainer="Your Mom Big Gay <help@skims.com>"
 
 ENV HOME="/root"
 
