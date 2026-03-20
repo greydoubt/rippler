@@ -3,9 +3,7 @@
 ##
 # osgeo/gdal:alpine-normal
 
-# This file is available at the option of the licensee under:
-# Public domain
-# or licensed under MIT (LICENSE.TXT) Copyright 2019 Even Rouault <even.rouault@spatialys.com>
+
 
 ARG ALPINE_VERSION=3.23
 FROM alpine:${ALPINE_VERSION} AS builder
